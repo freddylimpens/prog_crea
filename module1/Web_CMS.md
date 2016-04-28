@@ -58,6 +58,7 @@ L'ensemble des documents ainsi que les liens qui les relient forment alors un r�
  
 
 ```activité-avancée
+
 ::Qui dirige le Web ?::[html]
 <p>Le 30 avril 1993, le CERN annonce que le « World Wide Web » sera <b>libre d'utilisation</b> pour tout le monde.</p>
 <div class="editor-indent" style="margin-left: 30px;"><i>Ressources :<br /></i></div>
@@ -77,8 +78,7 @@ L'ensemble des documents ainsi que les liens qui les relient forment alors un r�
 <p dir="ltr"></p>
 <p dir="ltr">Le fondateur est <b>Julian Assange.</b></p>
 </body>}
-
-````
+```
 
 
 ## Clients et serveurs
@@ -166,7 +166,7 @@ Son rôle est de distribuer les ressources dont il dispose, c'est-à-dire qui so
 ::La distribution::[html]<p>Quand un serveur a envoyé une image à un client, il doit attendre que ce client l'ait rendue avant de la distribuer à un autre client.</p>{TRUE####<p>Cette notion de "rendre" une ressource n'a pas de sens, à chaque fois les ressources sont copiées et ce sont des copies qui sont envoyées, ...</p><p>Le serveur conserve toujours ses ressources et peut en faire autant de copies que nécessaire.</p> }
 
 
-````
+```
 
 ## Exemple et récapitulatif
 
@@ -176,9 +176,7 @@ Son rôle est de distribuer les ressources dont il dispose, c'est-à-dire qui so
 
 Commençons par un exemple très simple pour comprendre le mécanisme de base. Si à l'aide d'un client web tel que Firefox, je saisis l'adresse :
 
-```
- http://culturenumerique.univ-lille3.fr/PageExemple
-```
+`http://culturenumerique.univ-lille3.fr/PageExemple`
 
 Que se passe -t-il ?
 
@@ -264,7 +262,7 @@ En conclusion, dès que vous transmettez des données confidentielles veillez bi
 }
 
 
-````
+```
 
 ## HTML
 
@@ -400,7 +398,7 @@ Rendez-vous sur la page :
 (pageServeurs.html)[http://culturenumerique.univ-lille3.fr/activitesWeb/html/pageServeurs.html]
 Lisez, observez et répondez aux questions posées...
 {}
-````
+```
 
 # 2. Reprise des bases en HTML/CSS
 
