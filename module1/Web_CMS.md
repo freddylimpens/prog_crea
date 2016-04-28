@@ -3,14 +3,12 @@ MENUTITLE: Web & CMS
 AUTHOR: Freddy Limpens
 LANGUAGE: fr
 
-
-## Cours 1/2
+# Rappels sur Internet et le Web
+## Le web
 [video]( https://player.vimeo.com/video/138623497 ){: .lien_video } 
 Le web, c'est sans doute l'application informatique qui a rencontré le plus grand succès.
-
 C'est une utilisation particulière  d'internet. Il a été inventé par Tim Berners Lee au début des années 90. C'est d'abord un moyen de communication entre personnes qui permet de s'échanger des informations décrites dans des documents . Il est fréquent de constater une confusion entre Internet et le Web. Or, si le web utilise Internet, il n'est pas la seule application à le faire, le mail par exemple est un autre service qui utilise Internet. Socialement, le web a pris une place considérable dans nos vies. Sur cette application au départ très simple se sont bâties d'autres applications dans tous les domaines d'activités : pour le commerce, le marketing, la recherche d'emploi, le travail à distance et la collaboration... C'est un vecteur important de développement économique aujourd'hui. C'est aussi par des applications web que l'état et les administrations offrent leurs services aux citoyens. C'est encore par les applications sociales du web que nous communiquons dans notre vie privée. Maîtriser les technologies du web est important pour comprendre les enjeux, saisir des opportunités, éviter des pièges... Naviguer sur le web fait aujourd'hui partie du quotidien de chacun d'entre nous. Ce chapitre propose d'en expliquer le fonctionnement pour nous permettre d'avoir des comportements responsables et de garder la maîtrise de ce que nous faisons.
 
-## Cours 2/2
 [video]( https://player.vimeo.com/video/138623515 ){: .lien_video } 
 
 Alors, qu'est-ce réellement  que le web ? Le Web est avant tout un service qui permet de s'échanger des ressources. Celles-ci peuvent être très variées et prendre de nombreuses formes. Dans un premier temps, nous considérerons pour simplifier que ce sont uniquement des documents qui contiennent soit du texte soit des images.
@@ -82,9 +80,9 @@ L'ensemble des documents ainsi que les liens qui les relient forment alors un r�
 
 ```
 
-# Clients et serveurs
+## Clients et serveurs
 
-## Le modèle client/serveur
+### Le modèle client/serveur
 [video](https://player.vimeo.com/video/138623558){: .lien_video}
 Le Web, et bien d'autres applications d'internet, fonctionnent selon un modèle très simple : le modèle client/serveur.
 
@@ -96,7 +94,7 @@ Sur Internet, les clients et les serveurs sont toujours des programmes qui s'ex�
 
 Dans le cadre du web, les clients sont les navigateurs qui nous permettent d'accéder à des sites constitués de ressources hébergées par des serveurs . Ils respectent pour leurs échanges un langage et des règles communes qu'on appelle le protocole `http` pour hypertext transfer protocol. Chaque ressource fait l'objet d'un échange demande/retour entre le client et le serveur. Certaines demandes n'aboutissent pas, quand  la ressource demandée n'existe pas par exemple. Ce sont les fameuses erreurs 404.
 
-## Les clients
+### Les clients
 [video](https://player.vimeo.com/video/138623609){: .lien_video}
 
 **Les clients**
@@ -109,7 +107,7 @@ Il en existe des centaines mais les plus connus du grand public sont Firefox, Ch
 Une remarque importante doit être signalée. Le terme naviguer peut prêter à confusion. **Si vous nous avez bien entendu, les clients ne se déplacent pas chez le serveur. Ce sont plutôt les ressources qui sont copiées du serveur vers le client** à travers le réseau.
 **Cela signifie donc que lorsque vous visitez un site web, le serveur envoie une copie des pages que vous demandez et votre navigateur vous les présente.**
 
-## Les serveurs
+### Les serveurs
 
 **Les serveurs** 
 [video](https://player.vimeo.com/video/138623583){: .lien_video}
@@ -169,7 +167,7 @@ Son rôle est de distribuer les ressources dont il dispose, c'est-à-dire qui so
 
 ```
 
-# Exemple et récapitulatif
+## Exemple et récapitulatif
 
 
 ## Cours
