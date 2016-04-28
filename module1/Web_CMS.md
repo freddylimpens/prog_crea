@@ -169,9 +169,8 @@ Son rôle est de distribuer les ressources dont il dispose, c'est-à-dire qui so
 
 ## Exemple et récapitulatif
 
-
-## Cours
 [video]( https://player.vimeo.com/video/138623678 ){: .lien_video } 
+
 ### Exemple
 
 Commençons par un exemple très simple pour comprendre le mécanisme de base. Si à l'aide d'un client web tel que Firefox, je saisis l'adresse :
@@ -266,9 +265,9 @@ En conclusion, dès que vous transmettez des données confidentielles veillez bi
 
 ```
 
-# HTML
+## HTML
 
-## HTML: contenu, structure, liens
+### HTML: contenu, structure, liens
 [video]( https://player.vimeo.com/video/138623721 ){: .lien_video } 
 Allons maintenant voir plus en détail le fonctionnement ; le langage `html` a plusieurs caractéristiques très intéressantes. Nous avons vu qu'il permettait d'introduire des hyperliens dans un document, mais il possède d'autres atouts.
 
@@ -280,7 +279,7 @@ En français la traduction de `html` est : langage de balisage pour documents hy
 
 Grâce à la description faite du document et en fonction de ses capacités le navigateur va pouvoir recomposer le document et vous l'afficher. Les pages web que votre navigateur affiche sont des textes avec le plus souvent des images, formant un document complet. En fait ce document est réalisé par l'assemblage de nombreuses ressources. En effet, le langage `html` permet également de spécifier l'insertion d'images (ou d'autres ressources) à différents endroits d'un document. Les images ne sont pas à proprement parler insérées dans le document principal, mais un balisage indique qu'à cet endroit il faudra insérer une image.
 
-## Rassembler les ressources
+### Rassembler les ressources
 [video]( https://player.vimeo.com/video/138623756 ){: .lien_video } 
 
 Rappelons qu'une page affichée dans votre navigateur est en fait un assemblage de nombreuses ressources. Il faut donc dans un premier temps les rassembler.
@@ -296,7 +295,7 @@ Ce processus se répète autant de fois qu'il y a d'images dans le document et c
 Cette remarque prendra tout son sens lorsque nous nous intéresserons aux traces que nous laissons et à la préservation de notre vie privée.
 
 
-## Mise en forme
+### Mise en forme
 [video]( https://player.vimeo.com/video/138623826 ){: .lien_video } 
 
 Revenons maintenant à l'affichage de la page dans mon navigateur.
