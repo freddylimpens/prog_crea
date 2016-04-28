@@ -3,7 +3,7 @@ MENUTITLE: Web & CMS
 AUTHOR: Freddy Limpens
 LANGUAGE: fr
 
-# Rappels sur Internet et le Web
+# Rappels sur Internet, le Web et HTML
 ## Le web
 [video]( https://player.vimeo.com/video/138623497 ){: .lien_video } 
 Le web, c'est sans doute l'application informatique qui a rencontré le plus grand succès.
@@ -76,9 +76,10 @@ L'ensemble des documents ainsi que les liens qui les relient forment alors un r�
 <p dir="ltr">( ref : <a target="_blank" href="https://fr.wikipedia.org/wiki/WikiLeaks">https://fr.wikipedia.org/wiki/WikiLeaks</a>)</p>
 <p dir="ltr"></p>
 <p dir="ltr">Le fondateur est <b>Julian Assange.</b></p>
-  </body>}
+</body>}
 
-```
+````
+
 
 ## Clients et serveurs
 
@@ -165,7 +166,7 @@ Son rôle est de distribuer les ressources dont il dispose, c'est-à-dire qui so
 ::La distribution::[html]<p>Quand un serveur a envoyé une image à un client, il doit attendre que ce client l'ait rendue avant de la distribuer à un autre client.</p>{TRUE####<p>Cette notion de "rendre" une ressource n'a pas de sens, à chaque fois les ressources sont copiées et ce sont des copies qui sont envoyées, ...</p><p>Le serveur conserve toujours ses ressources et peut en faire autant de copies que nécessaire.</p> }
 
 
-```
+````
 
 ## Exemple et récapitulatif
 
@@ -263,7 +264,7 @@ En conclusion, dès que vous transmettez des données confidentielles veillez bi
 }
 
 
-```
+````
 
 ## HTML
 
