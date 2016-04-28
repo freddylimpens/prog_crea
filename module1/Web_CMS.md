@@ -402,24 +402,27 @@ Lisez, observez et répondez aux questions posées...
 
 # 2. Reprise des bases en HTML/CSS
 
+## Cours
 L'objectif de ces 3 séances est de reprendre les bases de HTML/CSS déjà vues dans les précédents cours. 
 
-## Enoncé
+### Enoncé
 
 Reprenez le document [template_doc.html](https://github.com/freddylimpens/Cours_CMS_Web/blob/master/template_doc.html) dans le dépôt de fichier avec la feuille de style css associée [style_0.css](https://github.com/freddylimpens/Cours_CMS_Web/blob/master/style_0.css). L'objectif de cet exercice est de modifier le code HTML ainsi que le code CSS pour que ce document soit le plus proche possible du document inclus [test.pdf](https://github.com/freddylimpens/Cours_CMS_Web/blob/master/media/test.pdf). 
 
-## Remarques/Aides
+### Remarques/Aides
 
 Outre l'apparence générale du document (couleurs, bordures, etc) la structure évolue un tout petit peu vers un affichage à 2 colomnes, ce qui implique de modifier également la structure (HTML) du document. 
 
-## Ressources suggérées:
+### Ressources suggérées:
 
 - [inline block](http://learnlayout.com/inline-block.html)
 - [css floats](http://www.w3schools.com/css/css_float.asp)
 - [discussion sur les avantages de chaque approche](http://stackoverflow.com/questions/15172520/advantages-of-using-displayinline-block-vs-floatleft-in-css)
 
-#3. Création d'une carte de visite en ligne
 
+# 3. Création d'une carte de visite en ligne
+
+## Cours
 Sur la base des fichiers [one_page_image_bg.html](https://github.com/freddylimpens/Cours_CMS_Web/blob/master/one_page_image_bg.html) et [one_page_image_bg.css](https://github.com/freddylimpens/Cours_CMS_Web/blob/master/one_page_image_bg.css) qui utilisent l'image [media/chemin_brumeux.JPG](https://github.com/freddylimpens/Cours_CMS_Web/blob/master/media/chemin_brumeux.JPG), réalisez votre propre "business card" en ligne. 
 
 Le petit paragraphe de texte vous présentera succintement, et vous ajouterez une photo (ou image) sur le côté de ce texte (réutilisation de l'affichage double colonne vu précedemment).
@@ -436,4 +439,4 @@ Le principe de ce code HTML repose sur les différentes propriétés codées par
 - http://www.w3schools.com/css/css_margin.asp
 - http://www.w3schools.com/cssref/pr_pos_z-index.asp
 
-#4. 
+# 4. Séances 8
