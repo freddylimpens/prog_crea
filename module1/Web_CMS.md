@@ -474,7 +474,7 @@ r un site web statique](http://alignedleft.com/resources/cheap-web-hosting).
 
 ![ClementineNavarro_.png](media/ClementineNavarro_.png)
 ![Benmouffok_image23.jpg](media/Benmouffok_image23.jpg)
-![Pira_PapierPeint.png]({{site.baseurl}}/module1/media/Pira_PapierPeint.png)
+![Pira_PapierPeint.png](media/Pira_PapierPeint.png)
 
 
 
