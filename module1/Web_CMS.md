@@ -473,6 +473,12 @@ Nous allons effectuer un exercice de mise en ligne et mise à jour d'un site web
 
 1. Créez-vous un compte sur [Neocities](https://neocities.org). Attention au "username" choisi car votre URL sera du type `username.neocities.org` 
 2. vous allez ensuite construire votre site à partir de votre page personnelle développée en séance 5. 
-
+3. Uploadez le fichier html et les ressources associées (images, css)
+4. testez votre site. Adaptez éventuellement son architecture pour un accès plus aisé (renommez les fichiers, etc)
+5. Faites une modification du texte de présentation en local, puis mettez à jour le site
+6. Ajoutez des liens vers des pages externes (linkedIn, twitter, etc). Testez
+7. Ajoutez un lien vers un fichier hébergé sur votre site (pdf, photo, etc)
+7. Créez une autre page en uplodant un nouveau fichier html (celui du 1er exercice par exemple) et ses ressources associées. Modifiez le code pour simplifier l'architecture (un seul dossier media, etc)
+8. Etablissez un lien bidirectionnel entre les 2 pages; la page perso étant la "home" page, celle affichée en premier, ajoutez-y un lien vers l'autre page (dans le texte de présentation par exemple); dans cette autre page, ajoutez un lien vers votre home-page. Testez.
 
 
