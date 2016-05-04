@@ -471,6 +471,9 @@ Dans le cadre de ce cours nous nous focaliserons sur la gestion de contenu stati
 
 Nous allons effectuer un exercice de mise en ligne et mise à jour d'un site web dit "statique". Nous utiliserons une solution d'hébergement web statique gratuite [Neocities](https://neocities.org) trouvée grâce à un excellent article listant [les solutions gratuites ou presque pour héberger un site web statique](http://alignedleft.com/resources/cheap-web-hosting). 
 
+![ClementineNavarro_.png]({{site.baseurl}}/module1/media/ClementineNavarro_.png)
+
+
 1. Créez-vous un compte sur [Neocities](https://neocities.org). Attention au "username" choisi car votre URL sera du type `username.neocities.org` 
 2. vous allez ensuite construire votre site à partir de votre page personnelle développée en séance 5. 
 3. Uploadez le fichier html et les ressources associées (images, css)
@@ -480,5 +483,3 @@ Nous allons effectuer un exercice de mise en ligne et mise à jour d'un site web
 7. Ajoutez un lien vers un fichier hébergé sur votre site (pdf, photo, etc)
 7. Créez une autre page en uplodant un nouveau fichier html (celui du 1er exercice par exemple) et ses ressources associées. Modifiez le code pour simplifier l'architecture (un seul dossier media, etc)
 8. Etablissez un lien bidirectionnel entre les 2 pages; la page perso étant la "home" page, celle affichée en premier, ajoutez-y un lien vers l'autre page (dans le texte de présentation par exemple); dans cette autre page, ajoutez un lien vers votre home-page. Testez.
-
-
