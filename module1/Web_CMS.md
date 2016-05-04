@@ -439,4 +439,46 @@ Le principe de ce code HTML repose sur les différentes propriétés codées par
 - http://www.w3schools.com/css/css_margin.asp
 - http://www.w3schools.com/cssref/pr_pos_z-index.asp
 
-# 4. Séances 8
+# 4. Publication sur le Web et CMS
+## Principe de mise en ligne sur le Web
+
+Pour héberger un site il faut avoir accès à 2 choses:
+- un espace de stockage Web (Web hosting en anglais): 2 grandes familles d'hébergement sont possibles: 
+
+    * serveur mutualisé : infra (espace disque, RAM, bande passante, BDD, etc) partagée avec d'autres clients, mais qui permet de satisfaire les besoins d'un site simple avec une fréquentation modérée.
+    * serveur dédié, ou virtualisé, etc (les technos évoluent vite dans ce type d'infrastructure): infra plus performante pour des besoins spécifiques (site custom, gros traffic, etc).
+    * exemple de fournisseurs : OVH, 1&1, One.com, bluehost, etc.
+
+- un fournisseur de nom de domaine (DNS provider): vous achetez alors un nom de domaine, souvent pour 1 ou 3 ans.
+  * exemple: gandi.net, mais les services de Web Hosting fournissent de plus en plus le nom de domaine également.
+
+## Contenu statique, contenu dynamique
+
+Par défaut, un serveur web sur lequel sont entreposés des fichiers HTML | CSS | JavaScript sera considéré comme un site "statique" car le serveur ne procédera à aucun calcul de pages au moment de la navigation. Il ne fera que "servir" le contenu au client de l'usager, contenu qui sera interprété (y compris le code JS) par le navigateur.
+
+La mise à jour du contenu sur un tel type de site requiert donc de:
+- récupérer une copie locale du fichier à modifier
+- modifier les informations directement dans le code HTML, par exemple depuis un éditeur de texte installé en local, - puis de mettre à jour le fichier sur le serveur 
+De plus, ce type d'architecture ne permet pas de relié de manière automatique le contenu des pages avec les données d'une base de donnée (liste de livres dans une bibliothèque par exemple, horaires de train, etc)
+
+C'est pour permettre la mise à jour et faciliter la connexion avec des bases de données qu'on était pensé les technologies web telles que PHP, Django/Python, NodeJS, ASP.net, Java JEE, etc. Ces technologies, aliage d'un ou plusieurs languages de programmation et d'un cadre technologique (logiciels, bases de données, etc) exécutés sur des serveurs web, permettent de générer des sites web dynamiques. Ces type de sites sont  capables de mettre à jour les contenus des pages en lien avec des bases de données, et de permettre également aux internautes de modifier les données via des interfaces web plus ergonomiques.
+
+Le choix de l'hébergement va donc dépendre de la technologie d'un site dynamique. PHP associé à une base de donnée MySQL est le "combo" le plus répandu dans les offres d'hébergeurs, mais les technologies plus récentes (NodeJS, Django/Python, Ruby on Rails, etc. ) sont de plus en souvent proposées. 
+
+Dans le cadre de ce cours nous nous focaliserons sur la gestion de contenu statique, puis à la mise en place et le paramétrage de solution dynamique simple telle que WordPress.
+
+## Exercice
+
+Nous allons effectuer un exercice de mise en ligne et mise à jour d'un site web dit "statique". Nous utiliserons une solution d'hébergement web statique gratuite [Neocities](https://neocities.org) trouvée grâce à un excellent article listant [les solutions gratuites ou presque pour héberger un site web statique](http://alignedleft.com/resources/cheap-web-hosting). 
+
+1. Créez-vous un compte sur [Neocities](https://neocities.org). Attention au "username" choisi car votre URL sera du type `username.neocities.org` 
+2. vous allez ensuite construire votre site à partir de votre page personnelle développée en séance 5. 
+3. Uploadez le fichier html et les ressources associées (images, css)
+4. testez votre site. Adaptez éventuellement son architecture pour un accès plus aisé (renommez les fichiers, etc)
+5. Faites une modification du texte de présentation en local, puis mettez à jour le site
+6. Ajoutez des liens vers des pages externes (linkedIn, twitter, etc). Testez
+7. Ajoutez un lien vers un fichier hébergé sur votre site (pdf, photo, etc)
+7. Créez une autre page en uplodant un nouveau fichier html (celui du 1er exercice par exemple) et ses ressources associées. Modifiez le code pour simplifier l'architecture (un seul dossier media, etc)
+8. Etablissez un lien bidirectionnel entre les 2 pages; la page perso étant la "home" page, celle affichée en premier, ajoutez-y un lien vers l'autre page (dans le texte de présentation par exemple); dans cette autre page, ajoutez un lien vers votre home-page. Testez.
+
+
