@@ -1,3 +1,8 @@
+TITLE: Intro Base de données
+MENUTITLE: Bases de données
+AUTHOR: Freddy Limpens
+LANGUAGE: fr
+
 # Séance 1. (2x2h) Collecter et Manipuler des données
 
 Dans cette séance nous allons aborder la notion de données en explorant tout d'abord le monde de l'open data et des possibilités que cette tendance apporte. Nous aborderons ensuite les premières notions de représentation des données avant d'introduire un outils permettant de les manipuler et de les visualiser.  
