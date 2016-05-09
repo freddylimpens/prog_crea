@@ -2,6 +2,8 @@ TITLE: Intro Base de données
 MENUTITLE: Bases de données
 AUTHOR: Freddy Limpens
 LANGUAGE: fr
+LOGO: media/
+
 
 # Séance 1. (2x2h) Collecter et Manipuler des données
 
