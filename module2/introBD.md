@@ -27,10 +27,10 @@ Tout repose ici sur l'usage d'une "clé unique" qui identifie chaque entité (ic
 
 Les bases de données relationnelles sont encore aujourd'hui incontournables et sont au coeur de nombreux logiciels très répandues comme WordPress, Drupal, WikiMedia, etc. et au coeur de nombreux sites web (libération.fr, tous les blogs, wikipedia.org, etc.). Cependant, de nouveaux formats et technologies de base de données sont apparues dans les années 90 afin d'optimiser la "portabilité" des données, c'est à dire le transfert aisé d'un serveur à un autre: XML, JSON, etc. Nous allons voir que ces formats de données plus statiques sont utilisés pour diffuser des données, dans un mouvement encore en plein essor l'OPEN DATA.
 
-## 1. Collecter les données
+## Collecter et représenter les données
 
 Exploration des différents jeux de données disponibles: sites institutionnels, opendata, etc. Voir les liens données en Annexe1
-## 2. Représenter les données
+
 Différents formats sont utilisés dans le domaine de l'OpenData. NOus avons vu ensemble cette séance:
 * le .CSV (Comma Separated Value): c'est un format texte, i.e ouvrable dans n'importe quel bon éditeur texte puisqu'il n'inclue pas de mise en forme à la différence des formats   traitement de text (ODT, DOC, etc). Un fichier CSV est essentiellement un tableau dans lequel:
 > les valeurs pour les différentes colonnes sont séparés par un signe que l'on choisit la 1ère fois que l'on enregistre le fichier. Un conseil: éviter de choisir la `,` car en France c'est le signe qui sépare les décimales des nombres, donc il y a risque de se retrouver avec 2 colonnes différentes pour les entiers et le décimales d'un nombre à virgule, ex: 12,5 => 12 et 5 dans 2 colonnes séparées. Un signe couramment employé est le `;` ou la tabulation 
@@ -40,8 +40,29 @@ Différents formats sont utilisés dans le domaine de l'OpenData. NOus avons vu 
 
 Nous verrons par la suite d'autres formats courants, notamment ceux dédiés aux donnés géoréférencées.  
 
-## 3. Manipuler les données avec CartoDB
-### Exercice sur Machine  
+```comprehension
+
+::Formats des bases de données::[markdown] Parmis les formats suivants, lesquels sont basés sur un format texte:
+{
+=JSON
+=CSV
+~XLS
+}
+
+
+```
+
+## Application : Manipuler les données avec CartoDB
+
+[Préparer un CSV pour CartoDB](https://player.vimeo.com/video/100105203){.lien_video}
+
+Regarder ce tutoriel sur l'utilisation de la plateforme [CartoDB.com](https://cartodb.com/)
+
+```activite  
+
+
+::Exercice sur machine:::[markdown]
+Suivez les étapes suivantes et répondez à la question du dernier point:
 * aller suur cartodb.com
 * se creer un compte
 * aller sur https://ressources.data.sncf.com
@@ -54,5 +75,8 @@ Nous verrons par la suite d'autres formats courants, notamment ceux dédiés aux
 * une fois la fusion effectuée, faite la requête SQL permettant de ne voir que les gares qui ont un chiffre de satisfaction:  
 ``SELECT * FROM voyageurs_merge WHERE satisfaction_globale IS NOT NULL``
 * Trouver des représentations qui permettent de visualiser instantanément les gares ayant le meilleure indice de satisfaction
-* inspecter les résultat, et compter combien de résultats sont affichés par rapport aux nombres de gares pour lesquelles vous avez un chiffre de satisfaction. Que constatez-vous ? Pourquoi ? (aidez-vous de requêtes SQL pour compter les résultats)
-
+* QUESTION: inspecter les résultat, et compter combien de résultats sont affichés par rapport aux nombres de gares pour lesquelles vous avez un chiffre de satisfaction. Que constatez-vous ? Pourquoi ? (aidez-vous de requêtes SQL pour compter les résultats)
+{}
+    
+    
+```
