@@ -63,19 +63,20 @@ Regarder ce tutoriel sur l'utilisation de la plateforme [CartoDB.com](https://ca
 
 ::Exercice sur machine:::[markdown]
 Suivez les étapes suivantes et répondez à la question du dernier point:
-* aller suur cartodb.com
-* se creer un compte
-* aller sur https://ressources.data.sncf.com
-* récupérer le jeu de données "Baromètre satisfaction client en gare"
-* ouvrir le fichier excel, récupérer (c/c) les valeurs des 2 colonnes : nom de la gare, valeur de satisfaction globale
-* créer un fichier csv et y coller ces 2 col. 
-* récupérer le fichier "referentiel gare voyageurs" sur data.sncf.com
-* normalement le fichier est géocodé par rapport à la colonne "commune", sinon, le faire manuellement en cliquant sur le bouton orange "geo" a côté de la colonne the_geom
-* opérer la fusion des 2 datasets ainsi créés en choisissant pour chaque jeus de données la colonne donnant le nom des gares
-* une fois la fusion effectuée, faite la requête SQL permettant de ne voir que les gares qui ont un chiffre de satisfaction:  
+\n
+- aller suur cartodb.com
+- se creer un compte
+- aller sur https://ressources.data.sncf.com
+- récupérer le jeu de données "Baromètre satisfaction client en gare"
+- ouvrir le fichier excel, récupérer (c/c) les valeurs des 2 colonnes : nom de la gare, valeur de satisfaction globale
+- créer un fichier csv et y coller ces 2 col. 
+- récupérer le fichier "referentiel gare voyageurs" sur data.sncf.com
+- normalement le fichier est géocodé par rapport à la colonne "commune", sinon, le faire manuellement en cliquant sur le bouton orange "geo" a côté de la colonne the_geom
+- opérer la fusion des 2 datasets ainsi créés en choisissant pour chaque jeus de données la colonne donnant le nom des gares
+- une fois la fusion effectuée, faite la requête SQL permettant de ne voir que les gares qui ont un chiffre de satisfaction:  
 ``SELECT * FROM voyageurs_merge WHERE satisfaction_globale IS NOT NULL``
-* Trouver des représentations qui permettent de visualiser instantanément les gares ayant le meilleure indice de satisfaction
-* QUESTION: inspecter les résultat, et compter combien de résultats sont affichés par rapport aux nombres de gares pour lesquelles vous avez un chiffre de satisfaction. Que constatez-vous ? Pourquoi ? (aidez-vous de requêtes SQL pour compter les résultats)
+- Trouver des représentations qui permettent de visualiser instantanément les gares ayant le meilleure indice de satisfaction
+- QUESTION: inspecter les résultat, et compter combien de résultats sont affichés par rapport aux nombres de gares pour lesquelles vous avez un chiffre de satisfaction. Que constatez-vous ? Pourquoi ? (aidez-vous de requêtes SQL pour compter les résultats)
 {}
     
     
