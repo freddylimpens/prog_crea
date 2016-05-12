@@ -54,16 +54,14 @@ Nous verrons par la suite d'autres formats courants, notamment ceux dédiés aux
 
 ## Application : Manipuler les données avec CartoDB
 
-[Préparer un CSV pour CartoDB](https://player.vimeo.com/video/100105203){.lien_video}
+[Préparer un CSV pour CartoDB](https://player.vimeo.com/video/100105203){: .lien_video}
 
 Regarder ce tutoriel sur l'utilisation de la plateforme [CartoDB.com](https://cartodb.com/)
 
-```activite  
+## Exercice sur machine
 
+Suivez les étapes suivantes et répondez à la question de l'activité suivante:
 
-::Exercice sur machine:::[markdown]
-Suivez les étapes suivantes et répondez à la question du dernier point:
-\n
 - aller suur cartodb.com
 - se creer un compte
 - aller sur https://ressources.data.sncf.com
@@ -74,9 +72,17 @@ Suivez les étapes suivantes et répondez à la question du dernier point:
 - normalement le fichier est géocodé par rapport à la colonne "commune", sinon, le faire manuellement en cliquant sur le bouton orange "geo" a côté de la colonne the_geom
 - opérer la fusion des 2 datasets ainsi créés en choisissant pour chaque jeus de données la colonne donnant le nom des gares
 - une fois la fusion effectuée, faite la requête SQL permettant de ne voir que les gares qui ont un chiffre de satisfaction:  
-``SELECT * FROM voyageurs_merge WHERE satisfaction_globale IS NOT NULL``
-- Trouver des représentations qui permettent de visualiser instantanément les gares ayant le meilleure indice de satisfaction
-- QUESTION: inspecter les résultat, et compter combien de résultats sont affichés par rapport aux nombres de gares pour lesquelles vous avez un chiffre de satisfaction. Que constatez-vous ? Pourquoi ? (aidez-vous de requêtes SQL pour compter les résultats)
+`
+SELECT * FROM voyageurs_merge WHERE satisfaction_globale IS NOT NULL
+`
+
+```activite  
+
+
+::Réponses à l'exercice sur machine:::[markdown]
+Renseignez le lien vers la cartographie que vous avez réalisée, puis répondez aux questions suivantes:
+-Trouver des représentations qui permettent de visualiser instantanément les gares ayant le meilleure indice de satisfaction. inspecter les résultat, et compter combien de résultats sont affichés par rapport aux nombres de gares pour lesquelles vous avez un chiffre de satisfaction. 
+- Que constatez-vous ? Pourquoi ? (aidez-vous de requêtes SQL pour compter les résultats)
 {}
     
     
