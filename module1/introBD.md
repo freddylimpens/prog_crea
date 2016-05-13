@@ -18,10 +18,7 @@ Une base de données est un dispositif technologique permettant de stocker et r�
   
 Cette vision est cependant très schématique, le terme *"base de données"* étant très générique, car les bases de données sont maintenant organisés en des architectures très complexes et distribuées dans ce qu'on appelle le "cloud computing".
 
-Malgré ces évolutions récentes, une base de donnée reste définie par son modèle de données détaillant les liens entre ses éléments. Voici par exemple le modèle de donnée du logiciel de WikiPedia:
-![](https://upload.wikimedia.org/wikipedia/commons/2/2c/Mediawiki_dbschema.svg)
-
-Dans ce dernier cas, on peut découper la complexité de cette représentation à l'aide de "tableaux", exactement comme ceux que vous manipuler dans un logiciel de feuille de calcul. On les appelle plus souvent "tables" dans le jargon. Une table peut représenter par exemple un aspect d'une "entité" du modèle ou une "relation" entre les différentes entités. C'est précisément l'exploitation et la manipulation de ces relations que permettent les bases de données dites "relationnelles", inventées dans les années 70:
+Malgré ces évolutions récentes, une base de donnée reste définie par son modèle de données détaillant les liens entre ses éléments à l'aide de "tableaux", exactement comme ceux que vous manipuler dans un logiciel de feuille de calcul. On les appelle plus souvent "tables" dans le jargon. Une table peut représenter par exemple un aspect d'une "entité" du modèle ou une "relation" entre les différentes entités. C'est précisément l'exploitation et la manipulation de ces relations que permettent les bases de données dites "relationnelles", inventées dans les années 70:
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Relational_key_SVG.svg/300px-Relational_key_SVG.svg.png)  
 Tout repose ici sur l'usage d'une "clé unique" qui identifie chaque entité (ici des personnes que l'on décrit à travers différentes tables: une pour l'identité, une autre pour les coordonnées téléphoniques).   
 
@@ -29,7 +26,27 @@ Les bases de données relationnelles sont encore aujourd'hui incontournables et 
 
 ## Collecter et représenter les données
 
-Exploration des différents jeux de données disponibles: sites institutionnels, opendata, etc. Voir les liens données en Annexe1
+### Exemples de jeux de données
+
+Exploration des différents jeux de données disponibles: sites institutionnels, opendata, etc. 
+
+- [**Data.Gouv.Fr**](https://www.data.gouv.fr). Exemples:  
+- Répartition géographique des contribuables de l'Impot sur les grandes Fortunes [ISF en France](https://www.data.gouv.fr/fr/datasets/impot-de-solidarite-sur-la-fortune/)  
+- Résultats des élections: [Présidentielles 2012](https://www.data.gouv.fr/fr/datasets/election-presidentielle-2012-resultats-572126/), Départementales, etc.  
+ 
+- [Etude sur la consommation de traitements contre la dysfonction érectile](https://www.data.gouv.fr/fr/datasets/etude-sur-la-consommation-de-traitements-contre-la-dysfonction-erectile/)
+- [DataFrance](http://datafrance.info/?utm_source=datagouv&utm_medium=datagouv&utm_campaign=reuse-global)  
+- [**OPenData.EU**](https://open-data.europa.eu) 
+- **Sncf**: https://ressources.data.sncf.com/explore/  
+Exemples:[Satisfaction Clients dans les gares](https://ressources.data.sncf.com/explore/dataset/barometre-client/?tab=metas), [Pianos dans les gares](https://ressources.data.sncf.com/explore/dataset/gares-pianos/)  
+
+- **Nord - Pas de Calais** : http://opendata.nordpasdecalais.fr/  
+donnnées "sociales" intéressantes par ex. [Développement Humain communal (IDH-4) pour l'année 2009](http://opendata.nordpasdecalais.fr/dataset/indicateur-de-developpement-humain-communal-idh-4-en-2009/resource/e0efab89-5e40-4d59-8b78-280a3edcff47)
+- **Ville d'Issy les Moulinaux** : https://data.issy.com  
+
+- [**INSEE**](http://www.insee.fr/fr/bases-de-donnees/): stat globales, données démographiques, stats économiques, etc.
+
+- Données "citoyennes" [NosDonnées.fr](http://www.nosdonnees.fr/dataset)
 
 Différents formats sont utilisés dans le domaine de l'OpenData. NOus avons vu ensemble cette séance.
 
