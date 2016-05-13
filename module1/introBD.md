@@ -31,22 +31,31 @@ Les bases de données relationnelles sont encore aujourd'hui incontournables et 
 
 Exploration des différents jeux de données disponibles: sites institutionnels, opendata, etc. Voir les liens données en Annexe1
 
-Différents formats sont utilisés dans le domaine de l'OpenData. NOus avons vu ensemble cette séance:
-* le .CSV (Comma Separated Value): c'est un format texte, i.e ouvrable dans n'importe quel bon éditeur texte puisqu'il n'inclue pas de mise en forme à la différence des formats   traitement de text (ODT, DOC, etc). Un fichier CSV est essentiellement un tableau dans lequel:
-> les valeurs pour les différentes colonnes sont séparés par un signe que l'on choisit la 1ère fois que l'on enregistre le fichier. Un conseil: éviter de choisir la `,` car en France c'est le signe qui sépare les décimales des nombres, donc il y a risque de se retrouver avec 2 colonnes différentes pour les entiers et le décimales d'un nombre à virgule, ex: 12,5 => 12 et 5 dans 2 colonnes séparées. Un signe couramment employé est le `;` ou la tabulation 
-> la 1ère ligne donne le nom des colonnes  
-* le .XLS: le format Excel pour un tableur est très diffusé. Attention il faut très souvent retraiter ce format et extraire les données des feuillets en autant de fichier .CSV pour une exploitation des données.
-* le .JSON: c'est le format d'échange de données sur le Web par excellence. C'est un format "machine" qui sertà stocker les données sous forme "d'objets" ayant différents "champs" décrivant les propriétés de chaque item. La grande différence avec les tableaux c'est qu'un champ peut être décrit avec plusieurs "sous-champs", ce qui se traduit plus difficilement avec un tableau.  
+Différents formats sont utilisés dans le domaine de l'OpenData. NOus avons vu ensemble cette séance.
+
+### le .CSV (Comma Separated Value)
+
+C'est un format texte, i.e ouvrable dans n'importe quel bon éditeur texte puisqu'il n'inclue pas de mise en forme à la différence des formats   traitement de text (ODT, DOC, etc). Un fichier CSV est essentiellement un tableau dans lequel:
+
+- les valeurs pour les différentes colonnes sont séparés par un signe que l'on choisit la 1ère fois que l'on enregistre le fichier. Un conseil: éviter de choisir la `,` car en France c'est le signe qui sépare les décimales des nombres, donc il y a risque de se retrouver avec 2 colonnes différentes pour les entiers et le décimales d'un nombre à virgule, ex: 12,5 => 12 et 5 dans 2 colonnes séparées. Un signe couramment employé est le `;` ou la tabulation 
+- la 1ère ligne donne le nom des colonnes  
+
+### le .XLS: 
+
+Le format Excel pour un tableur est très diffusé. Attention il faut très souvent retraiter ce format et extraire les données des feuillets en autant de fichier .CSV pour une exploitation des données.
+
+### JSON
+le .JSON: c'est le format d'échange de données sur le Web par excellence. C'est un format texte utilisable par des "machines" qui sertà stocker les données sous forme "d'objets" ayant différents "champs" décrivant les propriétés de chaque item. La grande différence avec les tableaux c'est qu'un champ peut être décrit avec plusieurs "sous-champs", ce qui se traduit plus difficilement avec un tableau.  
 
 Nous verrons par la suite d'autres formats courants, notamment ceux dédiés aux donnés géoréférencées.  
 
 ```comprehension
 
-::Formats des bases de données::[markdown] Parmis les formats suivants, lesquels sont basés sur un format texte:
+::Formats des bases de données::[markdown] Parmis les formats suivants, lesquels sont basés sur un format texte lisible directement par un humain avec un simple éditeur de texte:
 {
-=JSON
-=CSV
-~XLS
+~%50%JSON
+~%50%CSV 
+~%-100%XLS
 }
 
 
