@@ -110,6 +110,22 @@ Renseignez le lien vers la cartographie que vous avez réalisée, puis répondez
 -Trouver des représentations qui permettent de visualiser instantanément les gares ayant le meilleure indice de satisfaction. inspecter les résultat, et compter combien de résultats sont affichés par rapport aux nombres de gares pour lesquelles vous avez un chiffre de satisfaction. 
 - Que constatez-vous ? Pourquoi ? (aidez-vous de requêtes SQL pour compter les résultats)
 {}
-    
-    
+```
+# 2e section
+
+## Un peu de cours 
+
+lfglfglkgflkqgsflk
+gsgskghskflgh
+gghsfhkh
+
+```activite
+
+::question très difficile::Quel est le prénom de Tim Berners Lee?
+{
+=Tim
+~Bernard
+~Bruce
+}
+
 ```
