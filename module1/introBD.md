@@ -111,21 +111,3 @@ Renseignez le lien vers la cartographie que vous avez réalisée, puis répondez
 - Que constatez-vous ? Pourquoi ? (aidez-vous de requêtes SQL pour compter les résultats)
 {}
 ```
-# 2e section
-
-## Un peu de cours 
-
-lfglfglkgflkqgsflk
-gsgskghskflgh
-gghsfhkh
-
-```activite
-
-::question très difficile::Quel est le prénom de Tim Berners Lee?
-{
-=Tim
-~Bernard
-~Bruce
-}
-
-```
