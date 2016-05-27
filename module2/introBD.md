@@ -5,8 +5,7 @@ LANGUAGE: fr
 LOGO: media/
 
 
-# Séance 1. (2x2h) Collecter et Manipuler des données
-
+# Séance 1.
 Dans cette séance nous allons aborder la notion de données en explorant tout d'abord le monde de l'open data et des possibilités que cette tendance apporte. Nous aborderons ensuite les premières notions de représentation des données avant d'introduire un outils permettant de les manipuler et de les visualiser.  
 Lien prise de notes collective : https://oae.univ-lille3.fr/content/lille3/Ey6qIPD1g
 
