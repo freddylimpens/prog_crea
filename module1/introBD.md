@@ -80,7 +80,7 @@ Nous verrons par la suite d'autres formats courants, notamment ceux dédiés aux
 
 ## Application : Manipuler les données avec CartoDB
 
-[Préparer un CSV pour CartoDB](https://player.vimeo.com/video/100105203){: .lien_video}
+[Préparer un CSV pour CartoDB](https://player.vimeo.com/video/100105203){: .cours_video}
 
 Regarder ce tutoriel sur l'utilisation de la plateforme [CartoDB.com](https://cartodb.com/)
 
