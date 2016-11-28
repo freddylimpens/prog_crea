@@ -129,14 +129,3 @@ video (vers la video)
 }
 
 ```
-
-```activite
-::Qui choisit ? ::
-[markdown]
-Les choix de représentations sont faits par
-{
-~Les informaticiens #non pas seuls car intervient aussi l'utilisation métier des objets représentés
-~Les experts métier #non pas seuls car il faut des spécialistes des données numériques et des algorithmes
-=Les deux #oui et souvent aussi des chercheurs, des entreprises, ...
-}
-```
