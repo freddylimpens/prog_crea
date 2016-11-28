@@ -129,3 +129,12 @@ video (vers la video)
 }
 
 ```
+```activite
+// question: 268  name: Erreur 404!
+::Erreur 404!::[html]<p>Que signifie le code d'erreur 404 dans le protocole HTTP</p>{
+	~<p>La ressource a été déplacée sur un autre serveur</p>
+	=<p>La ressource n’existe pas sur le serveur</p>#<p>Votre réponse est correcte.</p>
+	~<p>Le client ne peut pas communiquer avec le serveur</p>
+	####<p>L'erreur 404 apparaît lorsque la ressource demandée n'existe pas sur le serveur. Cela se produit en général lorsqu'il y a une 'faute' dans l'url ou lorsque le gestionnaire du site a déplacé, supprimé ou renommé une ressource. L'url devient alors invalide.</p>
+}
+```
