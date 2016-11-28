@@ -129,6 +129,7 @@ video (vers la video)
 }
 
 ```
+
 ```activite
 // question: 268  name: Erreur 404!
 ::Erreur 404!::[html]<p>Que signifie le code d'erreur 404 dans le protocole HTTP</p>{
@@ -137,4 +138,15 @@ video (vers la video)
 	~<p>Le client ne peut pas communiquer avec le serveur</p>
 	####<p>L'erreur 404 apparaît lorsque la ressource demandée n'existe pas sur le serveur. Cela se produit en général lorsqu'il y a une 'faute' dans l'url ou lorsque le gestionnaire du site a déplacé, supprimé ou renommé une ressource. L'url devient alors invalide.</p>
 }
+
+// question: 270  name: le meilleur Navigateur
+::le meilleur Navigateur::[html]<p>Avec quel navigateur peut-on accéder au plus grand nombre de sites ?</p>{
+	~<p>Firefox</p>
+	~<p>Internet Explorer</p>
+	~<p>Chrome</p>
+	~<p>Safari</p>
+	=<p>Tous</p>#<p>Votre réponse est correcte.</p>
+	####<p>Tous les navigateurs sont équivalents de ce point de vue, seuls leur rapidité, leurs fonctionnalités avancées ou leur ergonomie les différencient.</p>
+}
+
 ```
