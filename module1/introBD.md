@@ -129,3 +129,16 @@ video (vers la video)
 }
 
 ```
+```activite
+::Espaces et virgule::
+[markdown]
+En français, lorsqu'on utilise une virgule (`,`), on doit mettre :
+{
+~ une espace normale avant et une espace normale après,
+~ une espace insécable avant et pas d'espace après,
+~ une espace insécable avant et une espace normale après,
+~ pas d'espace avant et une espace insécable après,
+= pas d'espace avant et une espace normale après.
+#### les signes de ponctuation simple `, .` sont collés au mot qui précède et sont suivis d'une espace normale.
+}
+```
